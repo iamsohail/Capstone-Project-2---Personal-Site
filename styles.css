@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+  font-family: "Montserrat Alternates", sans-serif !important;
+}
+
+.image {
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Must match width for perfect circle */
+  border-radius: 50%;
+  object-fit: cover; /* Crucial - crops instead of squishing */
+  display: block;
+  margin: 0 auto; /* Centers horizontally */
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
